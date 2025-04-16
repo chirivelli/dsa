@@ -19,6 +19,9 @@ class MinHeap:
     def display(self):
         print(self.pq)
 
+    def is_empty(self):
+        return len(self.pq) == 0
+
 def main():
     minHeap = MinHeap()
 

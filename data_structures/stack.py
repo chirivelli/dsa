@@ -10,6 +10,9 @@ class MonoStack:
     def display(self):
         print(self.stack)
 
+    def is_empty(self):
+        return len(self.stack) == 0
+
 def main():
     mono = MonoStack()
     mono.append(5)
